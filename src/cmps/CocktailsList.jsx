@@ -23,7 +23,7 @@ export function CocktailsList() {
   const cocktails = data.data
   if (!cocktails) return <h4>No matching cocktails found...</h4>
   const drinks = cocktails.drinks
-  console.log(drinks)
+  // console.log(drinks)
   return (
     <div className="cocktails-list">
       {drinks.map((drink) => <CocktailPreview key={drink.idDrink} drink={drink} />)}

@@ -6,21 +6,16 @@ export const useGlobalContext = () => {
   return useContext(GlobalContext)
 }
 
-
-
 export function AppContext({ children }) {
 
   const [searchInput, setSearchInput] = useState('')
 
-
-
-
-  function onSearchImgs(input) {
+  function onSearchDrinks(input) {
     const newSearchInput = input
     setSearchInput(newSearchInput)
   }
   return (
-    <GlobalContext.Provider value={{onSearchImgs, searchInput }}>
+    <GlobalContext.Provider value={{onSearchDrinks, searchInput }}>
       {children}
     </GlobalContext.Provider>
   )

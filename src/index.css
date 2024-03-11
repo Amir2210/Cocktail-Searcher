@@ -356,6 +356,15 @@ nav {
   justify-content: center;
 }
 
+.search-container {
+  margin-bottom: 6rem;
+}
+
+.search-from {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
 /* COCKTAILS */
 
 .cocktails-list {
