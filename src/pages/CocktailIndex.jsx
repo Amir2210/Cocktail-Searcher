@@ -5,7 +5,9 @@ export function CocktailIndex() {
   return (
     <>
       <Navbar />
-      <CocktailsList />
+      <section className='page'>
+        <CocktailsList />
+      </section>
     </>
   )
 }

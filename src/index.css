@@ -347,6 +347,15 @@ nav {
   }
 }
 
+/* HOME PAGE*/
+
+.loader {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* ABOUT PAGE */
 
 .about-p {
