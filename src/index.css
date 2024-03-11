@@ -349,3 +349,8 @@ nav {
   color: var(--grey-500);
   margin-top: 2rem;
 }
+
+.about-img {
+  width: 50%;
+  margin-top: 2rem;
+}
