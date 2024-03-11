@@ -12,8 +12,6 @@ export function CocktailDetail() {
       ingredientsArray.push(drink[key]);
     }
   }
-
-  console.log(ingredientsArray)
   return (
     <>
       <Navbar />
