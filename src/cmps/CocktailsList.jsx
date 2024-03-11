@@ -1,5 +1,6 @@
 import { useFetchCocktails } from '../services/GetCocktails'
 import { ThreeDots } from 'react-loader-spinner'
+import { CocktailPreview } from './CocktailPreview'
 export function CocktailsList() {
   const { data } = useFetchCocktails()
   if (!data) return (
@@ -16,7 +17,16 @@ export function CocktailsList() {
       />
     </div>
   )
+
+  if (data.isError) return <h2>There was an error...</h2>
+
+  const cocktails = data.data
+  if (!cocktails) return <h4>No matching cocktails found...</h4>
+  const drinks = cocktails.drinks
+  console.log(drinks)
   return (
-    <h1>CocktailsList</h1>
+    <div className="img-container">
+      {drinks.map(drink => <CocktailPreview key={drink.id} drink={drink} />)}
+    </div>
   )
 }
