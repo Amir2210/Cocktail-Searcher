@@ -10,7 +10,8 @@ export function CocktailPreview({ drink }) {
         <h4>{strDrink}</h4>
         <h5>{strGlass}</h5>
         <p>{strAlcoholic}</p>
-        <Link className='btn' to={`/cocktail/${idDrink}`}>Details</Link>
+        {/* <Link className='btn' to={`/cocktail/${idDrink}`}>Details</Link> */}
+        <Link className='btn' to={`/cocktail/${idDrink}`} state={{ strDrink, strGlass, strAlcoholic, strDrinkThumb }}>Details</Link>
       </div>
     </article>
   )

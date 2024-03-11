@@ -391,6 +391,13 @@ nav {
   color: var(--grey-500)
 }
 
+/* COCKTAIL DETAIL PAGE */
+
+.cocktail-detail header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 /* ABOUT PAGE */
 
 .about-p {
