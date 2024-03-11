@@ -204,7 +204,7 @@ ul {
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
-  margin: 3rem auto;
+  margin: 1rem auto;
 }
 
 .form-label {
@@ -288,7 +288,7 @@ PROJECT CSS
   width: var(--view-width);
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 5rem 2rem;
+  padding: 2rem;
 }
 
 nav {
