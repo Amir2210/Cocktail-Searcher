@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Navbar } from './Navbar'
 import { useNavigate } from 'react-router-dom'
-
+import { toast } from 'react-toastify';
 
 export function Newsletter() {
   const [name, setName] = useState('')
@@ -11,6 +11,7 @@ export function Newsletter() {
   const navigate = useNavigate()
   function handleSubmit(e) {
     e.preventDefault()
+    toast.success('Good job, check your Email')
     navigate('/')
   }
 
