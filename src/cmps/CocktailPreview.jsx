@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 export function CocktailPreview({ drink }) {
-  const { strDrink, idDrink, strGlass, strAlcoholic, strDrinkThumb } = drink
+  const { strDrink, idDrink, strGlass, strAlcoholic, strDrinkThumb, strCategory, strInstructions } = drink
   return (
     <article className='cocktail-preview'>
       <div className="img-container">
@@ -11,7 +11,7 @@ export function CocktailPreview({ drink }) {
         <h5>{strGlass}</h5>
         <p>{strAlcoholic}</p>
         {/* <Link className='btn' to={`/cocktail/${idDrink}`}>Details</Link> */}
-        <Link className='btn' to={`/cocktail/${idDrink}`} state={{ strDrink, strGlass, strAlcoholic, strDrinkThumb }}>Details</Link>
+        <Link className='btn' to={`/cocktail/${idDrink}`} state={{ strDrink, strGlass, strCategory, strAlcoholic, strDrinkThumb, drink, strInstructions }}>Details</Link>
       </div>
     </article>
   )
