@@ -1,5 +1,7 @@
+import { Navbar } from '../cmps/Navbar';
+
 export function CocktailIndex() {
   return (
-    <h1>CocktailIndex</h1>
+    <Navbar />
   )
 }
