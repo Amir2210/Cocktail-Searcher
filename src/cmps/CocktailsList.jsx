@@ -25,8 +25,8 @@ export function CocktailsList() {
   const drinks = cocktails.drinks
   console.log(drinks)
   return (
-    <div className="img-container">
-      {drinks.map(drink => <CocktailPreview key={drink.id} drink={drink} />)}
+    <div className="cocktails-list">
+      {drinks.map((drink) => <CocktailPreview key={drink.idDrink} drink={drink} />)}
     </div>
   )
 }

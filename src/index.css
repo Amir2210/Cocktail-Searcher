@@ -356,6 +356,41 @@ nav {
   justify-content: center;
 }
 
+/* COCKTAILS */
+
+.cocktails-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.cocktail-preview {
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: var(--borderRadius);
+}
+
+.footer {
+  padding: 1.5rem;
+}
+
+.footer h4 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.footer h5 {
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  margin-bottom: 1rem;
+  color: var(--grey-500)
+}
+
 /* ABOUT PAGE */
 
 .about-p {
