@@ -8,6 +8,7 @@ export function Navbar() {
         <div className="nav-links">
           <Link className={location.pathname === '/' ? 'nav-link active' : 'nav-link'} to={`/`}>home</Link>
           <Link className={location.pathname === '/about' ? 'nav-link active' : 'nav-link'} to={`/about`}>about</Link>
+          <Link className={location.pathname === '/newsletter' ? 'nav-link active' : 'nav-link'} to={`/newsletter`}>newsletter</Link>
         </div>
       </div>
     </nav>
