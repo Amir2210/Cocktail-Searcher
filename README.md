@@ -1,3 +1,5 @@
+👨‍💻 Link to the App : https://cocktail-finder1.netlify.app/
+
 🎋 Intro:
 This project is a React application that provides information about cocktails using data fetched from thecocktaildb.com API. Users can explore a variety of cocktails, view cocktail details, learn about the website, and subscribe to a newsletter.
 
