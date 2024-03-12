@@ -57,3 +57,9 @@ This project is a React application that provides information about cocktails us
 3. Run npm install to install dependencies.
 4. Run npm run dev to start the development server.
 5. Open your browser and navigate to http://localhost:5173 to view the application.
+
+   
+
+https://github.com/Amir2210/Cocktail-Searcher/assets/107459404/5e934c95-6c17-4b9e-93df-a170214f6bc7
+
+![ללא שם](https://github.com/Amir2210/Cocktail-Searcher/assets/107459404/2f9d9fbc-485b-4119-a8f0-2ecd7323e2fa)
