@@ -406,3 +406,22 @@ header .btn {
   width: 50%;
   margin-top: 2rem;
 }
+
+/* ERROR PAGE */
+
+.error-page {
+  text-align: center;
+  padding: 1.5rem;
+
+  h1,
+  p {
+    margin-bottom: 1rem;
+  }
+
+
+
+  .img {
+    margin: 5rem auto;
+    width: 50%;
+  }
+}
